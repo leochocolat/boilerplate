@@ -95,6 +95,13 @@ The *dist* folder is about everything that your browser will be actually using f
 
 * for Javascript : index.js is compiled by webpack in  dist/javascript/bundle.js so your browser can understand it. Inside index.js you can import all your js files.  
 
+## TODO
+
+* Use Babel to transpile javascript ES6
+* Add sources manager with webpack
+* Add HTML templating system (Handlebars?)
+* Re-write readme
+
 ## Copyright
 
 developed by [Léo Mouraire](https://leomouraire.com)
