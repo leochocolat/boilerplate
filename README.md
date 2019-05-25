@@ -54,3 +54,8 @@ $ npm start
 Your Home page will open on localhost:3000
 
 **You can start killing the front-end game.**
+
+## Copyright
+
+developed by [Léo Mouraire](https://leomouraire.com)
+MIT license.
