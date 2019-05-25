@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "gulp",
-    "build": "webpack --watch"
+    "build": "webpack"
   },
   "author": "Léo Mouraire",
   "license": "MIT",
