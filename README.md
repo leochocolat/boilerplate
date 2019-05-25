@@ -91,7 +91,7 @@ your-project
 ```
 The *dist* folder is about everything that your browser will be actually using for rendering your website, you should not have to work in css or js files here, you only have to focus on the *src* folder.
 
-* for SCSS : Your just have to create your scss file and to import them in the global file that your page will actually use for now you can just import all your files in the app.scss file. If gulp is running every change you make on your scss file will reload your browser with the new styles you added. 
+* for SCSS : You just have to create your scss file and to import them in the global file that your page will actually use for now you can just import all your files in the app.scss file. If gulp is running every change you make on your scss file will reload your browser with the new styles you added. 
 
 * for Javascript : index.js is compiled by webpack in  dist/javascript/bundle.js so your browser can understand it. Inside index.js you can import all your js files.  
 
