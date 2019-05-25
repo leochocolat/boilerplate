@@ -1,8 +1,9 @@
 # Boilerplate
-## A small html, scss, js workflow for small projects
+## Workflow for small HTML, SCSS, Javascript ES6 projects.
 
-This workflow is using GulpJS, Sass and browserSync to allows you to compile your SCSS files in CSS files, forget about -webkit- prefixing and earn some time reloading your page with an autoreload system when you save your HTML, SCSS or JS files. 
+This workflow is using GulpJS, Sass, browserSync and webpack to allows you to compile your SCSS files in CSS files, forget about -webkit- prefixing and earn some time reloading your page with an autoreload system when you save your HTML, SCSS or JS files. 
 You can also use BrowserSync to open your html pages on your mobile or other devices simultaneously.
+Use imports and exports calls to organize your javascripts files and your js librairies. 
 
 ## Getting started
 
@@ -47,13 +48,52 @@ $ npm install
 
 ### Start
 
+#### Run Gulp
 You are almost ready to go, you just need to run : 
 ```
 $ npm start
 ```
-Your Home page will open on localhost:3000
+Your Home page will open on localhost:3000, your scss files will be compiled and all your files watched to live reload your html page when saved.
+
+#### Run Webpack
+
+If you want to compile your js files, you can run :
+```
+$ npm run build
+```
+
+Your js files will be compiled and import/export calls will be translated to be understood by your browser.
 
 **You can start killing the front-end game.**
+
+## Documentation
+
+### If you're not familiar with this kind of workflow : 
+
+The project structured is like this : 
+```
+your-project
+  |- package.json
+  |- webpack.config.js
+  |- /dist
+    |- /css
+      |- app.css
+    |- /javascript
+      |- bundle.js
+    |- index.html
+  |- /src
+    |- /data
+    |- /scss
+    |- /javascript
+      |- index.js
+    |- /sources
+  |- /node_modules
+```
+The *dist* folder is about everything that your browser will be actually using for rendering your website, you should not have to work in css or js files here, you only have to focus on the *src* folder.
+
+* for SCSS : Your just have to create your scss file and to import them in the global file that your page will actually use for now you can just import all your files in the app.scss file. If gulp is running every change you make on your scss file will reload your browser with the new styles you added. 
+
+* for Javascript : index.js is compiled by webpack in  dist/javascript/bundle.js so your browser can understand it. Inside index.js you can import all your js files.  
 
 ## Copyright
 
