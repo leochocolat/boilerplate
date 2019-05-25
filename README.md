@@ -1,5 +1,8 @@
 # boilerplate
-A small html, scss, js workflow for small projects
+## A small html, scss, js workflow for small projects
+
+This workflow is using GulpJS, Sass and browserSync to allows you to compile your SCSS files in CSS files, forget about -webkit- prefixing and earn some time reloading your page with an autoreload system when you save your HTML, SCSS or JS files. 
+You can also use BrowserSync to open your html pages on your mobile or other devices simultaneously.
 
 ## Getting started
 ### Make sure you have Nodes, NPM and Gulp on your machine :
