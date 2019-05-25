@@ -5,6 +5,14 @@ This workflow is using GulpJS, Sass and browserSync to allows you to compile you
 You can also use BrowserSync to open your html pages on your mobile or other devices simultaneously.
 
 ## Getting started
+
+
+### Clone this repository
+
+```
+git clone git@github.com:leochocolat/boilerplate.git
+```
+
 ### Make sure you have Nodes, NPM and Gulp on your machine :
 
 Type these commands on your terminal 
