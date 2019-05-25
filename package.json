@@ -22,7 +22,6 @@
   "dependencies": {
     "acorn": "^6.1.1",
     "acorn-dynamic-import": "^4.0.0",
-    "browser-sync": "^2.26.5",
-    "lodash": "^4.17.11"
+    "browser-sync": "^2.26.5"
   }
 }
