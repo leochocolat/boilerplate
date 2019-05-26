@@ -14,7 +14,7 @@ Use imports and exports calls to organize your javascripts files and your js lib
 git clone git@github.com:leochocolat/boilerplate.git
 ```
 
-### Make sure you have Nodes, NPM and Gulp on your machine :
+### Make sure you have Node, NPM and Gulp on your machine :
 
 Type these commands on your terminal 
 ```
@@ -24,8 +24,8 @@ $ node --version
 $ npm --version
 ```
 
-* If you don't have Nodes Installed : 
-[Install Nodes](https://nodejs.org/en/download/) 
+* If you don't have Node Installed : 
+[Install Node](https://nodejs.org/en/download/) 
 * If you don't have NPM : 
 [Install NPM](https://www.npmjs.com/get-npm) 
 
