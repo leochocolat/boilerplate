@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "gulp",
-    "build": "webpack"
+    "dev": "webpack --watch"
   },
   "author": "Léo Mouraire",
   "license": "MIT",
@@ -20,7 +20,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "webpack": "^4.32.2",
-    "webpack-cli": "^3.3.2"
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
     "acorn": "^6.1.1",

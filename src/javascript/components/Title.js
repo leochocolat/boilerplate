@@ -1,6 +1,6 @@
 //IMPORTS
 
-
+// EXAMPLE
 class Title {
 
   constructor() {
@@ -15,7 +15,6 @@ class Title {
     div.style.left = "50%";
     div.style.top = "50%";
     div.style.transform = "translate(-50%, -50%)"
-    console.log(div);
     document.body.appendChild(div);
 
   }
@@ -25,3 +24,4 @@ class Title {
 
 
 export default new Title();
+// *
