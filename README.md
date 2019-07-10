@@ -63,7 +63,7 @@ Your Home page will open on localhost:3000, your scss files will be compiled and
 
 If you want to compile your js files, you can run :
 ```
-$ npm run build
+$ npm run dev
 ```
 
 Your js files will be compiled and import/export calls will be translated to be understood by your browser.
