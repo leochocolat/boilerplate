@@ -1,13 +1,24 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
   mode: 'development',
-  entry: './src/javascript/index.js',
+  entry: {
+    app: './src/javascript/index.js',
+    print: './src/javascript/utils/print.js',
+  },
+  plugins: [
+      new HtmlWebpackPlugin({
+        title: 'Output Management',
+        filename: '../html/index.html'
+      })
+   ],
   devServer: {
     contentBase: './dist'
   },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
     path: path.resolve('dist', 'javascript')
   },
   module: {
@@ -43,7 +54,7 @@ module.exports = {
        {
           test: /\.xml$/,
           use: [
-            'xml-loader'
+            'xml-loader'  
           ]
        }
     ]
