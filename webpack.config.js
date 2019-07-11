@@ -1,18 +1,15 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 
 module.exports = {
   mode: 'development',
   entry: {
     app: './src/javascript/index.js',
-    print: './src/javascript/utils/print.js',
   },
   plugins: [
-      new HtmlWebpackPlugin({
-        title: 'Output Management',
-        filename: '../html/index.html'
-      })
+      new CleanWebpackPlugin()
    ],
   devServer: {
     contentBase: './dist'
