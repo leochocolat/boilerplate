@@ -35,6 +35,6 @@
   "dependencies": {
     "acorn": "^6.1.1",
     "acorn-dynamic-import": "^4.0.0",
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.27.10"
   }
 }
